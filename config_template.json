@@ -1,0 +1,46 @@
+{
+    "NOTIFICATIONS": {
+        "text_message": {
+            "Enabled": true,
+            "twilio_sid":"",
+            "twilio_token":"",
+            "twilio_phone":""
+        }
+    },
+    "address": "your_address",
+    "phone": "your_phone_number",
+    "walgreens_username":"walgreensemail",
+    "walgreens_password":"walgreenspassword",
+    "walgreens_security_question_answer":"yousecuritypassword",
+    "SELECT_ONLY_ONE_statement_that_describes_you": [
+        {"I am a healthcare worker": false},
+        {"I am age 65 or older": false},
+        {"I meet my county’s eligibility requirements": true},
+        {"None of the above": false}
+
+    ],
+    "do_you_have_authorization_code": false,
+    "authorization_code": "",
+    "do_you_have_covid_symptoms": false,
+    "have_you_tested_positive_for_cov19_in_past_2_weeks": false,
+    "do_you_have_chronic_health_condition": true,
+    "SELECT_ONLY_ONE_race": [
+        {"American Indian or Alaska Native": false},
+        {"Asian": false},
+        {"Black or African American": false},
+        {"Native Hawaiian or Other Pacific Islander": false},
+        {"White": true},
+        {"Other Race": false}
+    ],
+    "SELECT_ONLY_ONE_ethnicity": [
+        {"Hispanic or Latino": false},
+        {"Non Hispanic or Latino": true},
+        {"Unknown ethnicity": false},
+        {"Decline to answer": false}
+    ],
+    "SELECT_ONLY_ONE_which_dose": [
+        {"First and second dose": true},
+        {"Second dose": false}
+    ]
+
+}
